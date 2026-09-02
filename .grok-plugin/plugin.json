@@ -1,0 +1,23 @@
+{
+  "name": "virlo",
+  "version": "0.1.0",
+  "description": "Connects Grok Build to Virlo's TikTok, YouTube Shorts, and Instagram Reels intelligence API — trend discovery, creator lookups, niche research agents, and long-term tracking.",
+  "author": {
+    "name": "Virlo",
+    "url": "https://virlo.ai"
+  },
+  "homepage": "https://virlo.ai",
+  "repository": "https://github.com/Virlo-AI/Virlo-Plugin",
+  "license": "MIT",
+  "keywords": [
+    "virlo",
+    "tiktok",
+    "social media",
+    "trends",
+    "creator intelligence",
+    "mcp",
+    "market research"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "mcp.json"
+}
