@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "virlo": {
+      "url": "https://dev.virlo.ai/api/mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${VIRLO_API_KEY}"
+      }
+    }
+  }
+}
