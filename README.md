@@ -4,7 +4,7 @@ Connects Cursor to [Virlo](https://virlo.ai)'s social media intelligence API —
 
 ## Included
 
-- `mcp.json`: Virlo's hosted remote MCP server (`https://dev.virlo.ai/api/mcp/mcp`, 46 tools)
+- `mcp.json`: Virlo's hosted remote MCP server (`https://dev.virlo.ai/api/mcp/mcp`, ~49 tools — check [dev.virlo.ai/docs/mcp](https://dev.virlo.ai/docs/mcp) for the current count)
 - `rules/virlo-api-usage.mdc`: intent-first research, async job polling, and credit-cost awareness
 - `commands/`: `/trend-scout`, `/creator-deep-dive`, `/niche-analysis`, `/genre-monitor`
 - `assets/logo.svg`: Virlo logo
@@ -12,7 +12,7 @@ Connects Cursor to [Virlo](https://virlo.ai)'s social media intelligence API —
 ## Setup
 
 1. Get an API key at [dev.virlo.ai/dashboard/api-keys](https://dev.virlo.ai/dashboard/api-keys) (starts with `virlo_tkn_`).
-2. Set `VIRLO_API_KEY` in your environment (`mcp.json` reads it via `${VIRLO_API_KEY}`).
+2. Set `VIRLO_API_KEY` in your environment (`mcp.json` reads it via `${env:VIRLO_API_KEY}`).
 3. Install this plugin in Cursor and restart.
 
 Full tool reference: [dev.virlo.ai/docs/mcp](https://dev.virlo.ai/docs/mcp).
